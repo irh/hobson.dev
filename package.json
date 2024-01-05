@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "zola build && pnpm tailwindcss -i ./public/index.input.css -o ./public/index.css -m",
+    "build": "zola build && pnpm tailwindcss -m -i ./public/index.input.css -o ./public/index.css",
     "serve": "zola serve --interface 0.0.0.0 & pnpm tailwindcss -i ./public/index.input.css -o ./public/index.css --watch && wait"
   },
   "dependencies": {
