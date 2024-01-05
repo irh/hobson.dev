@@ -1,0 +1,9 @@
+.icon-button {
+  height: 4rem;
+  width: 4rem;
+
+  &:hover {
+    filter: invert(26%) sepia(79%) saturate(5760%) hue-rotate(241deg) brightness(92%) contrast(92%);
+
+  }
+}
